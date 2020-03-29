@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#23272a"
+    android:orientation="vertical"
+    tools:context="com.ruchika.checkers.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="30dp"
+        android:background="#23272a"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="30dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="50dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="9"
+                android:fontFamily="@font/noto_sans"
+                android:paddingBottom="30dp"
+                android:paddingStart="30dp"
+                android:paddingTop="30dp"
+                android:text="Checkers ⬤"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="35sp" />
+
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/btnPlay"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="30dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:src="@drawable/ic_play"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:visibility="visible" />
+
+        <SeekBar
+            android:id="@+id/seekBarLevels"
+            style="@style/Widget.AppCompat.SeekBar.Discrete"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:layout_marginBottom="30dp"
+            android:layout_marginEnd="70dp"
+            android:layout_marginStart="70dp"
+            android:max="4"
+            android:min="1"
+            android:progress="100"
+            android:progressTint="#FF1744"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:id="@+id/llMode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:paddingBottom="30dp"
+            android:visibility="gone">
+
+            <ImageButton
+                android:id="@+id/btnTwoP"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:src="@drawable/ic_two_players" />
+
+            <ImageButton
+                android:id="@+id/btnComp"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:src="@drawable/ic_computer" />
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/btnRules"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="30dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:src="@drawable/ic_rules" />
+
+        <ImageButton
+            android:id="@+id/btnVolume"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="30dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:src="@drawable/ic_volume_up" />
+
+
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/btnBack"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|left"
+        android:layout_marginBottom="20dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:src="@drawable/ic_arrow_back"
+        android:visibility="visible" />
+
+</FrameLayout>

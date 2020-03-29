@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3f51b5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#ff1744</color>
+    <color name="BlueGrey">#546e7a</color>
+    <color name="Lavender">#006600</color>
+
+    <color name="border">#000000</color>
+    <color name="dark_piece">#3f5ca8</color>
+    <color name="light_piece">#ffffff</color>
+    <color name="background">#23272a</color>
+    <color name="dark_box">#2c2f33</color>
+    <color name="light_box">#99aab5</color>
+
+    <color name="border2">#000000</color>
+    <color name="dark_piece2">#2b3742</color>
+    <color name="light_piece2">#610606</color>
+    <color name="background2">#716555</color>
+    <color name="dark_box2">#c9b385</color>
+    <color name="light_box2">#1f1501</color>
+
+    <color name="border3">#000000</color>
+    <color name="dark_piece3">#dbc7af</color>
+    <color name="light_piece3">#ffffff</color>
+    <color name="background3">#5b4947</color>
+    <color name="dark_box3">#302627</color>
+    <color name="light_box3">#fbb562</color>
+</resources>

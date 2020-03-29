@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2c2c2c"
+    android:orientation="vertical"
+    android:paddingBottom="20dp"
+    android:paddingTop="5dp">
+
+    <RadioGroup
+        android:padding="2dp"
+        android:id="@+id/rgTheme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/rbDefault"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:buttonTint="#00c853"
+            android:padding="15dp"
+            android:text="  Default"
+            android:textColor="@android:color/white"
+            android:textSize="16sp" />
+
+        <RadioButton
+            android:id="@+id/rbClassic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:buttonTint="#00c853"
+            android:padding="15dp"
+            android:text="  Classic"
+            android:textColor="@android:color/white"
+            android:textSize="16sp" />
+
+        <RadioButton
+            android:id="@+id/rbDark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:buttonTint="#00c853"
+            android:padding="15dp"
+            android:text="  Dark"
+            android:textColor="@android:color/white"
+            android:textSize="16sp" />
+    </RadioGroup>
+
+    <LinearLayout
+        android:padding="2dp"
+        android:id="@+id/llApply"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_weight="1"
+            android:paddingTop="10dp"
+            android:src="@drawable/ic_done_black_24dp" />
+
+        <Button
+            android:id="@+id/btApply"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="10"
+            android:text="Apply"
+            android:textAlignment="viewStart"
+            android:textAllCaps="false"
+            android:textColor="#00c853"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:padding="2dp"
+        android:id="@+id/llCancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_weight="1"
+            android:paddingTop="10dp"
+            android:src="@drawable/ic_cancel_bt_black" />
+
+        <Button
+            android:id="@+id/btCancel"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="10"
+            android:text="Cancel"
+            android:textAlignment="viewStart"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

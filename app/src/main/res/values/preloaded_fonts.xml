@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/abril_fatface</item>
+        <item>@font/aladin</item>
+        <item>@font/aldrich</item>
+        <item>@font/allerta_stencil</item>
+        <item>@font/aref_ruqaa</item>
+        <item>@font/butterfly_kids</item>
+        <item>@font/cedarville_cursive</item>
+        <item>@font/eczar</item>
+        <item>@font/englebert</item>
+        <item>@font/fjalla_one</item>
+        <item>@font/fredericka_the_great</item>
+        <item>@font/glass_antiqua</item>
+        <item>@font/graduate</item>
+        <item>@font/griffy</item>
+        <item>@font/inconsolata</item>
+        <item>@font/noto_sans</item>
+        <item>@font/proza_libre</item>
+        <item>@font/roboto</item>
+        <item>@font/trirong</item>
+    </array>
+</resources>

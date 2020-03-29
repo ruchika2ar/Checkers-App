@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Checkers</string>
+    <string name="title_activity_computer">Computer</string>
+    <string name="title_activity_two_players">TwoPlayers</string>
+</resources>
